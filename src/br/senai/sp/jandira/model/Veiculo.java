@@ -1,9 +1,9 @@
 package br.senai.sp.jandira.model;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Veiculo {
+
     String modelo, marca, cor, placa, combustivel;
     double preco;
     int ano;
@@ -11,7 +11,7 @@ public class Veiculo {
     /** Instancia Scanner */
     Scanner teclado = new Scanner(System.in);
 
-    public void CadastarVeiculo(){
+    public void cadastrarVeiculo(){
 
         System.out.println("---------  Cadastro Veiculo  ---------");
         System.out.println("Informe a Marca: ");
@@ -30,11 +30,7 @@ public class Veiculo {
         System.out.println("--------  Cadastro Finalizado  ---------");
         System.out.println("----------------------------------------");
 
-        teclado.close();
-
 
     }
-
-
 
 }
